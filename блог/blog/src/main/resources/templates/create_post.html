@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Создание поста</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form action="/post/create" method="post">
+    <input type="text" name="title" placeholder="Название статьи"><br>
+    <input type="text" name="description" placeholder="Описание статьи"><br>
+    <textarea name="text" placeholder="Текст статьи"></textarea><br>
+    <button type="submit">Отправить</button>
+</form>
+</body>
+</html>
